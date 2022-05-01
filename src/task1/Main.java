@@ -15,7 +15,7 @@ public class Main {
             length++;
             temp *= 10;
         }
-        // закидуємо кожну цифру окремо у масив і сумуємо їх
+        // закидуємо кожну цифру окремо у масив та сумуємо їх
         int[] array = new int[length];
         for (int i = 0; i < array.length; i++) {
             array[i] = tempVar % 10;
